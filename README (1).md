@@ -1,18 +1,19 @@
-**📌 Cricket Score Predictor – Machine Learning Project**
+**Cricket Score Predictor – Machine Learning Project**
 
 This project predicts the final score of a cricket innings using machine learning.
 It is built using Python, Scikit-Learn, XGBoost, and Streamlit for deployment.
 
 📁**Project Structure**
 ML_project/
-│── Final bits ml project-Copy3.ipynb                # Jupyter Notebook with all training code
-│── pipeline_ordinal_nik.pkl    # Saved final ML pipeline
+│── Cricket Score.ipynb                # Jupyter Notebook with all training code
+│── README(1).md   
 │── best.py                  # Streamlit web application
-│── README.md               # Project documentation
-│── data/                   # Dataset (CSV)
+│── dataset_t20.pkl           # Dataset (CSV)
+│── pipelining            # Saved final ML pipeline
+│── requirements.txt 
 
 
-**📌 1. Project Overview**
+**1. Project Overview**
 
 The goal of this project is to build a regression model that predicts final runs scored based on match conditions such as:
 
@@ -42,16 +43,16 @@ City
 https://www.kaggle.com/veeralakrishna/cricsheet-a-retrosheet-for-cricket?select=t20s
 Link to access datasets taken for this project. To open dataset, Click on the link mentioned. There we can find multiple sections of cricket matches such as ipl, bbl, ODIs,Tests, T20s etc. Among these, click on T20s to see the project dataset.
 
-**🧠 3. Machine Learning Workflow**
-**✔ Data Cleaning**
+**3. Machine Learning Workflow**
+**Data Cleaning**
 1.Missing value handling
 2.Type conversions
 
-**✔ Feature Engineering**
+**Feature Engineering**
 1.One-Hot Encoding for categorical columns
 2.Scaling numeric columns
 
-✔ Algorithm Testing
+ Algorithm Testing
 
 **Models tested:**
 
@@ -85,29 +86,12 @@ StandardScaler → scale numeric features
 OrdinalEncoder → convert teams/city to vectors
 VotingRegressor → final model
 
-**💻 6. How to Run the Code**
-
-1. Clone the repository:
-git clone <repository-link>
-cd ML_project
+** 6. Screenshot of deployed model**
+<img width="793" height="571" alt="image" src="https://github.com/user-attachments/assets/999f5b6e-3756-4d50-9806-59c139226b94" />
+<img width="737" height="560" alt="image" src="https://github.com/user-attachments/assets/fa94d54a-bd20-442a-a369-321ed98b3efc" />
 
 
-2. Install dependencies:
-pip install -r requirements.txt
-
-
-3. Run the Jupyter Notebook to retrain/test the model:
-jupyter notebook ML.ipynb
-
-
-4. To launch the Streamlit web app:
-streamlit run streamlit_final_bits.py
-
-
-5.Open the displayed localhost URL in a browser to use the score predictor.
-
-
-**📦 7. Dependencies**
+** 7. Dependencies**
 
 Python ≥ 3.8, 
 pandas, 
@@ -118,7 +102,7 @@ streamlit,
 joblib (for saving/loading pipeline)
 
 
-**📈 8. Expected Outputs**
+**8. Expected Outputs**
 
 1. Jupyter Notebook:
 Data preprocessing results
