@@ -73,16 +73,16 @@ KnearestNeighbours         High variance
 | **Voting Regressor** | **Best Model** |
 
 
-**🏆 4. Best Model: VOTING REGRESSOR**
+**4. Best Model: VOTING REGRESSOR**
 
 The final model is an ensemble of two strong regressors:
 decision tree+ AdaBoost 
 
 
-📌 Voting Regressor gave the lowest error and best generalization, making it the final choice.
+Voting Regressor gave the lowest error and best generalization, making it the final choice.
 
 
-**🧪 5. Final Machine Learning Pipeline**
+**5. Final Machine Learning Pipeline**
 
 The final pipeline includes:
 
@@ -91,6 +91,14 @@ OrdinalEncoder → convert teams/city to vectors
 VotingRegressor → final model
 
 ** 6. Screenshot of deployed model**
+
+
+
+
+
+
+
+
 
 
 
@@ -110,15 +118,7 @@ VotingRegressor → final model
 
 
 
-** 7. Dependencies**
 
-Python ≥ 3.8, 
-pandas, 
-numpy, 
-scikit-learn, 
-xgboost, 
-streamlit, 
-joblib (for saving/loading pipeline)
 
 
 **8. Expected Outputs**
