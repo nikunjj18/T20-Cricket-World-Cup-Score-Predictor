@@ -90,7 +90,7 @@ StandardScaler → scale numeric features
 OrdinalEncoder → convert teams/city to vectors
 VotingRegressor → final model
 
-** 6. Screenshot of deployed model**
+**6. Screenshot of deployed model**
 
 
 
