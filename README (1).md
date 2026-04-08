@@ -88,7 +88,7 @@ The final pipeline includes:
 
 StandardScaler → scale numeric features
 OrdinalEncoder → convert teams/city to vectors
-VotingRegressor → final model
+VotingRegressor → final model(Decision tree+ada boost)
 
 **6. Screenshot of deployed model**
 
