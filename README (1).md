@@ -3,7 +3,7 @@
 This project predicts the final score of a cricket innings using machine learning.
 It is built using Python, Scikit-Learn, XGBoost, and Streamlit for deployment.
 
-📁**Project Structure**
+**Project Structure**
 
 ML_project/
 │── Cricket Score.ipynb                # Jupyter Notebook with all training code
@@ -28,7 +28,7 @@ Current run rate
 City
 
 
-**📊 2. Dataset Description**
+**2. Dataset Description**
 
 | Feature           | Description                |
 | ----------------- | -------------------------- |
