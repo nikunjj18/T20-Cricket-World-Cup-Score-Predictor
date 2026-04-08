@@ -93,10 +93,20 @@ VotingRegressor → final model
 ** 6. Screenshot of deployed model**
 
 
+
+
+
 <img width="793" height="571" alt="image" src="https://github.com/user-attachments/assets/999f5b6e-3756-4d50-9806-59c139226b94" />
 
 
+
+
+
+
 <img width="737" height="560" alt="image" src="https://github.com/user-attachments/assets/fa94d54a-bd20-442a-a369-321ed98b3efc" />
+
+
+
 
 
 
