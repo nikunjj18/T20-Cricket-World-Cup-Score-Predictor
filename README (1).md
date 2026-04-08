@@ -4,6 +4,7 @@ This project predicts the final score of a cricket innings using machine learnin
 It is built using Python, Scikit-Learn, XGBoost, and Streamlit for deployment.
 
 📁**Project Structure**
+
 ML_project/
 │── Cricket Score.ipynb                # Jupyter Notebook with all training code
 │── README(1).md   
@@ -28,6 +29,7 @@ City
 
 
 **📊 2. Dataset Description**
+
 | Feature           | Description                |
 | ----------------- | -------------------------- |
 | batting_team      | Team currently batting     |
@@ -44,6 +46,7 @@ https://www.kaggle.com/veeralakrishna/cricsheet-a-retrosheet-for-cricket?select=
 Link to access datasets taken for this project. To open dataset, Click on the link mentioned. There we can find multiple sections of cricket matches such as ipl, bbl, ODIs,Tests, T20s etc. Among these, click on T20s to see the project dataset.
 
 **3. Machine Learning Workflow**
+
 **Data Cleaning**
 1.Missing value handling
 2.Type conversions
@@ -57,16 +60,17 @@ Link to access datasets taken for this project. To open dataset, Click on the li
 **Models tested:**
 
 **Model	Status**
+
 | Model                | Status            |
 | -------------------- | ----------------- |
-| Linear Regression    | ❌ High error      |
-| Decision Tree        |  ✔ Good        |
-| Random Forest        | ✔ Good            |
-| AdaBoost             | ✔ Strong       |
-| XGBoost              |  ❌Weak   
-|Ridge/Lasso               ❌ High error      
-KnearestNeighbours         ❌ High variance    
-| **Voting Regressor** | **⭐⭐ Best Model** |
+| Linear Regression    |  High error      |
+| Decision Tree        |   Good        |
+| Random Forest        |  Good            |
+| AdaBoost             | Strong       |
+| XGBoost              |  Weak   
+|Ridge/Lasso                High error      
+KnearestNeighbours         High variance    
+| **Voting Regressor** | **Best Model** |
 
 
 **🏆 4. Best Model: VOTING REGRESSOR**
@@ -87,8 +91,13 @@ OrdinalEncoder → convert teams/city to vectors
 VotingRegressor → final model
 
 ** 6. Screenshot of deployed model**
+
+
 <img width="793" height="571" alt="image" src="https://github.com/user-attachments/assets/999f5b6e-3756-4d50-9806-59c139226b94" />
+
+
 <img width="737" height="560" alt="image" src="https://github.com/user-attachments/assets/fa94d54a-bd20-442a-a369-321ed98b3efc" />
+
 
 
 ** 7. Dependencies**
